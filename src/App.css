@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.app {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+.product-list {
+  text-align: left;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.main_heading {
+  margin-bottom: 10px;
+}
