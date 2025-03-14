@@ -1,0 +1,8 @@
+.card{
+    border: 1px solid black; /* Opcjonalnie, dla widocznego konturu */
+    background-color: #fff3e0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}

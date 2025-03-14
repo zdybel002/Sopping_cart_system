@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ProductList from "./Component/ProductList";
 import Cart from "./Component/Cart";
 import Header from "./Component/Header/Header";
+import Wrap from "./Component/Design/Wrap"
 
 import "./App.css";
 
@@ -45,6 +46,8 @@ const App = () => {
       <Header />
       <ProductList products={products} addToCart={addToCart} />
       <Cart cart={cart} removeFromCart={removeFromCart} />
+    
+      
     </div>
   );
 };

@@ -1,22 +1,23 @@
 import React from "react";
 import ProductItem from "./ProductItem";
 import styles from "./ProductList.module.css";
+import Wrap from "./Design/Wrap"
 
 const ProductList = ({ products, addToCart }) => {
   return (
     <div>
       <h2>Products</h2>
-      <ul className={styles.product_list}>
+      <div>
         {products.map((product) => (
-          <li>
-            <ProductItem
-              key={product.id}
-              product={product}
-              addToCart={addToCart}
-            />
-          </li>
+            <Wrap>
+                  <ProductItem
+                    key={product.id}
+                    product={product}
+                    addToCart={addToCart}
+                  />
+            </Wrap>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

@@ -1,4 +1,5 @@
 .product_list {
+  max-width: 100%;
   display: flex;
   list-style: none;
 }
